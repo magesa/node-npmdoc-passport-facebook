@@ -6,7 +6,7 @@
 <tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
-<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-03T15:31:44Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-04T08:41:04Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
 <tspan x="10" y="122">passport-facebook</tspan>
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154"></tspan>
@@ -14,59 +14,59 @@
 <tspan x="10" y="186">c-passport-facebook/test.js</tspan>
 <tspan x="10" y="202">merging file:///home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/build/test-report.jso\</tspan>
 <tspan x="10" y="218">n to test-report</tspan>
-<tspan x="10" y="234">&gt; server listening on http-port 47521</tspan>
+<tspan x="10" y="234">&gt; server listening on http-port 63420</tspan>
 <tspan x="10" y="250">created apidoc file:///home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/build/apidoc.h\</tspan>
 <tspan x="10" y="266">tml</tspan>
 <tspan x="10" y="282"></tspan>
 <tspan x="10" y="298"></tspan>
 <tspan x="10" y="314">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-passport-faceboo\</tspan>
-<tspan x="10" y="330">k/tmp/electron.15b3471826b0.9ad2de9bbc4.html</tspan>
+<tspan x="10" y="330">k/tmp/electron.15b381fe2d50.fb106d27a23c.html</tspan>
 <tspan x="10" y="346"></tspan>
 <tspan x="10" y="362">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
 <tspan x="10" y="378">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
 <tspan x="10" y="394">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
 <tspan x="10" y="410"></tspan>
 <tspan x="10" y="426">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-passport-faceboo\</tspan>
-<tspan x="10" y="442">k/tmp/electron.15b347182cf0.8bd15a23a12f4.html</tspan>
+<tspan x="10" y="442">k/tmp/electron.15b381fe3070.0f023503bb82b.html</tspan>
 <tspan x="10" y="458"></tspan>
 <tspan x="10" y="474">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="490">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="506">&gt; server listening on http-port 38369</tspan>
+<tspan x="10" y="506">&gt; server listening on http-port 37693</tspan>
 <tspan x="10" y="522">merging file:///home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/build/test-report.jso\</tspan>
 <tspan x="10" y="538">n to test-report</tspan>
 <tspan x="10" y="554">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="570">merging file:///home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/build/test-report.jso\</tspan>
 <tspan x="10" y="586">n to test-report</tspan>
-<tspan x="10" y="602">[5925:0403/153147:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="618">[5925:0403/153147:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="602">[4816:0404/084106:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="618">[4816:0404/084106:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
 <tspan x="10" y="634">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="650">[5937:0403/153147:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="666">[5937:0403/153147:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="682">[5967:0403/153147:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
-<tspan x="10" y="698">in process gpu-process. </tspan>
-<tspan x="10" y="714">[5925:0403/153147:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="730">[5984:0403/153147:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="650">[4853:0404/084106:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="666">in process gpu-process. </tspan>
+<tspan x="10" y="682">[4822:0404/084106:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="698">[4822:0404/084106:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="714">[4816:0404/084106:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="730">[4875:0404/084106:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
 <tspan x="10" y="746">in process gpu-process. </tspan>
-<tspan x="10" y="762">[5937:0403/153147:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="762">[4822:0404/084106:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
 <tspan x="10" y="778"></tspan>
 <tspan x="10" y="794">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/build/apido\</tspan>
 <tspan x="10" y="810">c.html</tspan>
 <tspan x="10" y="826"></tspan>
 <tspan x="10" y="842"></tspan>
-<tspan x="10" y="858">browserTest - opened url http://127.0.0.1:47521?modeTest=1</tspan>
+<tspan x="10" y="858">browserTest - opened url http://127.0.0.1:63420?modeTest=1</tspan>
 <tspan x="10" y="874"></tspan>
-<tspan x="10" y="890">[5937:0403/153149:INFO:CONSOLE(245)] "----------|-----------|-----------|-----------|-----------\</tspan>
+<tspan x="10" y="890">[4822:0404/084108:INFO:CONSOLE(245)] "----------|-----------|-----------|-----------|-----------\</tspan>
 <tspan x="10" y="906">|</tspan>
 <tspan x="10" y="922">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 <tspan x="10" y="938">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="954">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="970">All files |       100 |       100 |       100 |       100 |</tspan>
 <tspan x="10" y="986">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1002">", source: file:///home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/electron.15b347182\</tspan>
-<tspan x="10" y="1018">cf0.8bd15a23a12f4.html (245)</tspan>
-<tspan x="10" y="1034">[5937:0403/153149:INFO:CONSOLE(245)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
-<tspan x="10" y="1050">l", source: file:///home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/electron.15b34718\</tspan>
-<tspan x="10" y="1066">2cf0.8bd15a23a12f4.html (245)</tspan>
+<tspan x="10" y="1002">", source: file:///home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/electron.15b381fe3\</tspan>
+<tspan x="10" y="1018">070.0f023503bb82b.html (245)</tspan>
+<tspan x="10" y="1034">[4822:0404/084108:INFO:CONSOLE(245)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
+<tspan x="10" y="1050">l", source: file:///home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/electron.15b381fe\</tspan>
+<tspan x="10" y="1066">3070.0f023503bb82b.html (245)</tspan>
 <tspan x="10" y="1082">[node test-case 4 of 6 passed] - testCase_buildApp_default</tspan>
 <tspan x="10" y="1098"></tspan>
 <tspan x="10" y="1114">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-passport-facebo\</tspan>
@@ -88,7 +88,7 @@
 <tspan x="10" y="1370">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-passport-facebo\</tspan>
 <tspan x="10" y="1386">ok/tmp/build/screenCapture.npmTest.browser..html</tspan>
 <tspan x="10" y="1402"></tspan>
-<tspan x="10" y="1418">browserTest - exit-code 0 - http://127.0.0.1:47521?modeTest=1</tspan>
+<tspan x="10" y="1418">browserTest - exit-code 0 - http://127.0.0.1:63420?modeTest=1</tspan>
 <tspan x="10" y="1434"></tspan>
 <tspan x="10" y="1450"></tspan>
 <tspan x="10" y="1466">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/c\</tspan>
@@ -116,8 +116,8 @@
 <tspan x="10" y="1818">n to test-report</tspan>
 <tspan x="10" y="1834"></tspan>
 <tspan x="10" y="1850">-------------------------------------------------------</tspan>
-<tspan x="10" y="1866">| test-report - buildNpmdoc - node - linux v6.10.1 - 2017-04-03T15:31:07.694Z</tspan>
-<tspan x="10" y="1882">|   47890 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="1866">| test-report - buildNpmdoc - node - linux v6.10.1 - 2017-04-04T08:40:49.386Z</tspan>
+<tspan x="10" y="1882">|   25689 ms            0 failed        6 passed      |</tspan>
 <tspan x="10" y="1898">-------------------------------------------------------</tspan>
 <tspan x="10" y="1914"></tspan>
 <tspan x="10" y="1930">created test-report file:///home/travis/build/npmdoc/node-npmdoc-passport-facebook/tmp/build/tes\</tspan>
@@ -127,6 +127,6 @@
 <tspan x="10" y="1994">npmTest - 0 failed tests</tspan>
 <tspan x="10" y="2010"></tspan>
 <tspan x="10" y="2026"></tspan>
-<tspan x="10" y="2042">[MODE_BUILD=npmTest] - 2017-04-03T15:31:59Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2042">[MODE_BUILD=npmTest] - 2017-04-04T08:41:18Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>
