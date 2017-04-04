@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/passport-facebook.png?downloads=true)](https://www.npmjs.com/package/passport-facebook)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-passport-facebook/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-passport-facebook_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-passport-facebook/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-passport-facebook/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-passport-facebook_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-passport-facebook/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-passport-facebook/build/screenCapture.npmPackageListing.svg)
 
