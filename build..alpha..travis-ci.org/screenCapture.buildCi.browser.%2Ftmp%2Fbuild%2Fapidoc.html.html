@@ -56,6 +56,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.passport-facebook">
+            function <span class="apidocSignatureSpan"></span>passport-facebook
+            <span class="apidocSignatureSpan">(options, verify)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.Strategy">
             function <span class="apidocSignatureSpan">passport-facebook.</span>Strategy
             <span class="apidocSignatureSpan">(options, verify)</span>
@@ -92,6 +101,12 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">passport-facebook.</span>Strategy.prototype</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">passport-facebook.</span>profile</span>
 
         </li>
@@ -111,6 +126,77 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">passport-facebook.</span>super_.super_.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.passport-facebook.Strategy">module passport-facebook.Strategy</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.Strategy.Strategy">
+            function <span class="apidocSignatureSpan">passport-facebook.</span>Strategy
+            <span class="apidocSignatureSpan">(options, verify)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.Strategy.super_">
+            function <span class="apidocSignatureSpan">passport-facebook.Strategy.</span>super_
+            <span class="apidocSignatureSpan">(options, verify)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.passport-facebook.Strategy.prototype">module passport-facebook.Strategy.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.Strategy.prototype._convertProfileFields">
+            function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>_convertProfileFields
+            <span class="apidocSignatureSpan">(profileFields)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.Strategy.prototype.authenticate">
+            function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>authenticate
+            <span class="apidocSignatureSpan">(req, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.Strategy.prototype.authorizationParams">
+            function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>authorizationParams
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.Strategy.prototype.parseErrorResponse">
+            function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>parseErrorResponse
+            <span class="apidocSignatureSpan">(body, status)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.Strategy.prototype.userProfile">
+            function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>userProfile
+            <span class="apidocSignatureSpan">(accessToken, done)</span>
+            </a>
 
         </li>
 
@@ -313,6 +399,31 @@
 
 
     <h2>
+        <a href="#apidoc.element.passport-facebook.passport-facebook" id="apidoc.element.passport-facebook.passport-facebook">
+        function <span class="apidocSignatureSpan"></span>passport-facebook
+        <span class="apidocSignatureSpan">(options, verify)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Strategy(options, verify) {
+  options = options || {};
+  options.authorizationURL = options.authorizationURL || 'https://www.facebook.com/dialog/oauth';
+  options.tokenURL = options.tokenURL || 'https://graph.facebook.com/oauth/access_token';
+  options.scopeSeparator = options.scopeSeparator || ',';
+
+  OAuth2Strategy.call(this, options, verify);
+  this.name = 'facebook';
+  this._profileURL = options.profileURL || 'https://graph.facebook.com/v2.5/me';
+  this._profileFields = options.profileFields || null;
+  this._enableProof = options.enableProof;
+  this._clientSecret = options.clientSecret;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.passport-facebook.Strategy" id="apidoc.element.passport-facebook.Strategy">
         function <span class="apidocSignatureSpan">passport-facebook.</span>Strategy
         <span class="apidocSignatureSpan">(options, verify)</span>
@@ -427,6 +538,287 @@
 
 
 
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.passport-facebook.Strategy" id="apidoc.module.passport-facebook.Strategy">module passport-facebook.Strategy</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.passport-facebook.Strategy.Strategy" id="apidoc.element.passport-facebook.Strategy.Strategy">
+        function <span class="apidocSignatureSpan">passport-facebook.</span>Strategy
+        <span class="apidocSignatureSpan">(options, verify)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Strategy(options, verify) {
+  options = options || {};
+  options.authorizationURL = options.authorizationURL || 'https://www.facebook.com/dialog/oauth';
+  options.tokenURL = options.tokenURL || 'https://graph.facebook.com/oauth/access_token';
+  options.scopeSeparator = options.scopeSeparator || ',';
+
+  OAuth2Strategy.call(this, options, verify);
+  this.name = 'facebook';
+  this._profileURL = options.profileURL || 'https://graph.facebook.com/v2.5/me';
+  this._profileFields = options.profileFields || null;
+  this._enableProof = options.enableProof;
+  this._clientSecret = options.clientSecret;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.passport-facebook.Strategy.super_" id="apidoc.element.passport-facebook.Strategy.super_">
+        function <span class="apidocSignatureSpan">passport-facebook.Strategy.</span>super_
+        <span class="apidocSignatureSpan">(options, verify)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function OAuth2Strategy(options, verify) {
+  if (typeof options == 'function') {
+    verify = options;
+    options = undefined;
+  }
+  options = options || {};
+
+  if (!verify) { throw new TypeError('OAuth2Strategy requires a verify callback'); }
+  if (!options.authorizationURL) { throw new TypeError('OAuth2Strategy requires a authorizationURL option'); }
+  if (!options.tokenURL) { throw new TypeError('OAuth2Strategy requires a tokenURL option'); }
+  if (!options.clientID) { throw new TypeError('OAuth2Strategy requires a clientID option'); }
+
+  passport.Strategy.call(this);
+  this.name = 'oauth2';
+  this._verify = verify;
+
+  // NOTE: The _oauth2 property is considered "protected".  Subclasses are
+  //       allowed to use it when making protected resource requests to retrieve
+  //       the user profile.
+  this._oauth2 = new OAuth2(options.clientID,  options.clientSecret,
+      '', options.authorizationURL, options.tokenURL, options.customHeaders);
+
+  this._callbackURL = options.callbackURL;
+  this._scope = options.scope;
+  this._scopeSeparator = options.scopeSeparator || ' ';
+  this._key = options.sessionKey || ('oauth2:' + url.parse(options.authorizationURL).hostname);
+
+  if (options.store) {
+    this._stateStore = options.store;
+  } else {
+    if (options.state) {
+      this._stateStore = new SessionStateStore({ key: this._key });
+    } else {
+      this._stateStore = new NullStateStore();
+    }
+  }
+  this._trustProxy = options.proxy;
+  this._passReqToCallback = options.passReqToCallback;
+  this._skipUserProfile = (options.skipUserProfile === undefined) ? false : options.skipUserProfile;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.passport-facebook.Strategy.prototype" id="apidoc.module.passport-facebook.Strategy.prototype">module passport-facebook.Strategy.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.passport-facebook.Strategy.prototype._convertProfileFields" id="apidoc.element.passport-facebook.Strategy.prototype._convertProfileFields">
+        function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>_convertProfileFields
+        <span class="apidocSignatureSpan">(profileFields)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_convertProfileFields = function (profileFields) {
+  var map = {
+    'id':          'id',
+    'username':    'username',
+    'displayName': 'name',
+    'name':       ['last_name', 'first_name', 'middle_name'],
+    'gender':      'gender',
+    'birthday':    'birthday',
+    'profileUrl':  'link',
+    'emails':      'email',
+    'photos':      'picture'
+  };
+
+  var fields = [];
+
+  profileFields.forEach(function(f) {
+    // return raw Facebook profile field to support the many fields that don't
+    // map cleanly to Portable Contacts
+    if (typeof map[f] === 'undefined') { return fields.push(f); };
+
+    if (Array.isArray(map[f])) {
+      Array.prototype.push.apply(fields, map[f]);
+    } else {
+      fields.push(map[f]);
+    }
+  });
+
+  return fields.join(',');
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.passport-facebook.Strategy.prototype.authenticate" id="apidoc.element.passport-facebook.Strategy.prototype.authenticate">
+        function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>authenticate
+        <span class="apidocSignatureSpan">(req, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">authenticate = function (req, options) {
+  // Facebook doesn't conform to the OAuth 2.0 specification, with respect to
+  // redirecting with error codes.
+  //
+  //   FIX: https://github.com/jaredhanson/passport-oauth/issues/16
+  if (req.query &amp;&amp; req.query.error_code &amp;&amp; !req.query.error) {
+    return this.error(new FacebookAuthorizationError(req.query.error_message, parseInt(req.query.error_code, 10)));
+  }
+
+  OAuth2Strategy.prototype.authenticate.call(this, req, options);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    });
+  }
+));
+```
+
+#### Authenticate Requests
+
+Use `passport.<span class="apidocCodeKeywordSpan">authenticate</span>()`, specifying the `'facebook'` strategy, to
+authenticate requests.
+
+For example, as route middleware in an [Express](http://expressjs.com/)
+application:
+
+```js
+app.get('/auth/facebook',
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.passport-facebook.Strategy.prototype.authorizationParams" id="apidoc.element.passport-facebook.Strategy.prototype.authorizationParams">
+        function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>authorizationParams
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">authorizationParams = function (options) {
+  var params = {};
+
+  // https://developers.facebook.com/docs/reference/dialogs/oauth/
+  if (options.display) {
+    params.display = options.display;
+  }
+
+  // https://developers.facebook.com/docs/facebook-login/reauthentication/
+  if (options.authType) {
+    params.auth_type = options.authType;
+  }
+  if (options.authNonce) {
+    params.auth_nonce = options.authNonce;
+  }
+
+  return params;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.passport-facebook.Strategy.prototype.parseErrorResponse" id="apidoc.element.passport-facebook.Strategy.prototype.parseErrorResponse">
+        function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>parseErrorResponse
+        <span class="apidocSignatureSpan">(body, status)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">parseErrorResponse = function (body, status) {
+  var json = JSON.parse(body);
+  if (json.error &amp;&amp; typeof json.error == 'object') {
+    return new FacebookTokenError(json.error.message, json.error.type, json.error.code, json.error.error_subcode, json.error.fbtrace_id
+);
+  }
+  return OAuth2Strategy.prototype.parseErrorResponse.call(this, body, status);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.passport-facebook.Strategy.prototype.userProfile" id="apidoc.element.passport-facebook.Strategy.prototype.userProfile">
+        function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>userProfile
+        <span class="apidocSignatureSpan">(accessToken, done)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">userProfile = function (accessToken, done) {
+  var url = uri.parse(this._profileURL);
+  if (this._enableProof) {
+    // Secure API call by adding proof of the app secret.  This is required when
+    // the "Require AppSecret Proof for Server API calls" setting has been
+    // enabled.  The proof is a SHA256 hash of the access token, using the app
+    // secret as the key.
+    //
+    // For further details, refer to:
+    // https://developers.facebook.com/docs/reference/api/securing-graph-api/
+    var proof = crypto.createHmac('sha256', this._clientSecret).update(accessToken).digest('hex');
+    url.search = (url.search ? url.search + '&amp;' : '') + 'appsecret_proof=' + proof;
+  }
+  if (this._profileFields) {
+    var fields = this._convertProfileFields(this._profileFields);
+    if (fields !== '') { url.search = (url.search ? url.search + '&amp;' : '') + 'fields=' + fields; }
+  }
+  url = uri.format(url);
+
+  this._oauth2.get(url, accessToken, function (err, body, res) {
+    var json;
+
+    if (err) {
+      if (err.data) {
+        try {
+          json = JSON.parse(err.data);
+        } catch (_) {}
+      }
+
+      if (json &amp;&amp; json.error &amp;&amp; typeof json.error == 'object') {
+        return done(new FacebookGraphAPIError(json.error.message, json.error.type, json.error.code, json.error.error_subcode, json
+.error.fbtrace_id));
+      }
+      return done(new InternalOAuthError('Failed to fetch user profile', err));
+    }
+
+    try {
+      json = JSON.parse(body);
+    } catch (ex) {
+      return done(new Error('Failed to parse user profile'));
+    }
+
+    var profile = Profile.parse(json);
+    profile.provider = 'facebook';
+    profile._raw = body;
+    profile._json = json;
+
+    done(null, profile);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
 
 
 </div>
