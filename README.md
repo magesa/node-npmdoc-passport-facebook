@@ -1,6 +1,6 @@
 # npmdoc-passport-facebook
 
-#### api documentation for  [passport-facebook (v2.1.1)](https://github.com/jaredhanson/passport-facebook#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-passport-facebook.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-passport-facebook) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-passport-facebook.svg)](https://travis-ci.org/npmdoc/node-npmdoc-passport-facebook)
+#### basic api documentation for  [passport-facebook (v2.1.1)](https://github.com/jaredhanson/passport-facebook#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-passport-facebook.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-passport-facebook) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-passport-facebook.svg)](https://travis-ci.org/npmdoc/node-npmdoc-passport-facebook)
 
 #### Facebook authentication strategy for Passport.
 
@@ -78,7 +78,8 @@
     "scripts": {
         "test": "mocha --require test/bootstrap/node test/*.test.js"
     },
-    "version": "2.1.1"
+    "version": "2.1.1",
+    "bin": {}
 }
 ```
 
