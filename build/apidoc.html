@@ -114,12 +114,6 @@
 
         <li>
 
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">passport-facebook.</span>profile</span>
-
-        </li>
-
-        <li>
-
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">passport-facebook.</span>super_.InternalOAuthError.prototype</span>
 
         </li>
@@ -203,19 +197,6 @@
             <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.Strategy.prototype.userProfile">
             function <span class="apidocSignatureSpan">passport-facebook.Strategy.prototype.</span>userProfile
             <span class="apidocSignatureSpan">(accessToken, done)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.passport-facebook.profile">module passport-facebook.profile</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.passport-facebook.profile.parse">
-            function <span class="apidocSignatureSpan">passport-facebook.profile.</span>parse
-            <span class="apidocSignatureSpan">(json)</span>
             </a>
 
         </li>
@@ -547,8 +528,6 @@
 
 
 
-
-
 </div>
 
 <div class="apidocSectionDiv">
@@ -696,23 +675,7 @@
 
   OAuth2Strategy.prototype.authenticate.call(this, req, options);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    });
-  }
-));
-```
-
-#### Authenticate Requests
-
-Use `passport.<span class="apidocCodeKeywordSpan">authenticate</span>()`, specifying the `&#x27;facebook&#x27;` strategy, to
-authenticate requests.
-
-For example, as route middleware in an [Express](http://expressjs.com/)
-application:
-
-```js
-app.get(&#x27;/auth/facebook&#x27;,
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -825,70 +788,6 @@ app.get(&#x27;/auth/facebook&#x27;,
   });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.passport-facebook.profile" id="apidoc.module.passport-facebook.profile">module passport-facebook.profile</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.passport-facebook.profile.parse" id="apidoc.element.passport-facebook.profile.parse">
-        function <span class="apidocSignatureSpan">passport-facebook.profile.</span>parse
-        <span class="apidocSignatureSpan">(json)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">parse = function (json) {
-  if (&#x27;string&#x27; == typeof json) {
-    json = JSON.parse(json);
-  }
-
-  var profile = {};
-  profile.id = json.id;
-  profile.username = json.username;
-  profile.displayName = json.name;
-  profile.name = { familyName: json.last_name,
-                   givenName: json.first_name,
-                   middleName: json.middle_name };
-
-  profile.gender = json.gender;
-  profile.profileUrl = json.link;
-
-  if (json.email) {
-    profile.emails = [{ value: json.email }];
-  }
-
-  if (json.picture) {
-    if (typeof json.picture == &#x27;object&#x27; &#x26;&#x26; json.picture.data) {
-      // October 2012 Breaking Changes
-      profile.photos = [{ value: json.picture.data.url }];
-    } else {
-      profile.photos = [{ value: json.picture }];
-    }
-  }
-
-  return profile;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
- *
- * @param {object|string} json
- * @return {object}
- * @access public
- */
-exports.parse = function(json) {
-if (&#x27;string&#x27; == typeof json) {
-  json = JSON.<span class="apidocCodeKeywordSpan">parse</span>(json);
-}
-
-var profile = {};
-profile.id = json.id;
-profile.username = json.username;
-profile.displayName = json.name;
-profile.name = { familyName: json.last_name,
-...</pre></li>
     </ul>
 
 
@@ -1276,23 +1175,7 @@ profile.name = { familyName: json.last_name,
         utils.merge(parsed.query, params);
         parsed.query[&#x27;client_id&#x27;] = self._oauth2._clientId;
         delete parsed.search; ...</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    });
-  }
-));
-```
-
-#### Authenticate Requests
-
-Use `passport.<span class="apidocCodeKeywordSpan">authenticate</span>()`, specifying the `&#x27;facebook&#x27;` strategy, to
-authenticate requests.
-
-For example, as route middleware in an [Express](http://expressjs.com/)
-application:
-
-```js
-app.get(&#x27;/auth/facebook&#x27;,
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -1409,23 +1292,7 @@ app.get(&#x27;/auth/facebook&#x27;,
     <li>description and source-code<pre class="apidocCodePre">authenticate = function (req, options) {
   throw new Error(&#x27;Strategy#authenticate must be overridden by subclass&#x27;);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    });
-  }
-));
-```
-
-#### Authenticate Requests
-
-Use `passport.<span class="apidocCodeKeywordSpan">authenticate</span>()`, specifying the `&#x27;facebook&#x27;` strategy, to
-authenticate requests.
-
-For example, as route middleware in an [Express](http://expressjs.com/)
-application:
-
-```js
-app.get(&#x27;/auth/facebook&#x27;,
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
